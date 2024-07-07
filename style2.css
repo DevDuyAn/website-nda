@@ -1,0 +1,47 @@
+/* learn1.html */
+body{
+    background-image: url(./img/hoctap.jpg);
+    background-size: 100%;
+}
+
+h1{
+    color: rgb(55, 10, 158);
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* styles.css */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin:auto;
+    font-size: 18px;
+    text-align:center;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #e73434;
+}
+
+thead {
+    background-color: #11719e;
+}
+
+tr{
+    color: rgb(59, 207, 158);
+}
+th{
+    color: rgb(28, 2, 63);
+}
+a[href]{
+    color:rgb(49, 9, 87);
+    background-color: aquamarine;
+    padding: 6px 1px;
+    border-color:black;
+    border: 1px;
+}
+[href]:hover{
+    color: red;
+    font-size: 20px;
+}

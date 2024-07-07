@@ -1,0 +1,56 @@
+/* gthieu.html */
+body{
+    background-image: url(./img/sky1.jpg);
+    background-size: 100%;
+}
+h1{
+    color: red;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+a[href]{
+    color:rgb(49, 9, 87);
+    background-color: aquamarine;
+    padding: 6px 1px;
+    border: 1px solid red;
+}
+[href]:hover{
+    color: red;
+    font-size: 20px;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    background-color: aquamarine;
+    border-radius: 999px;
+    border: 2px solid rgb(226, 52, 52);
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+.fa-html5{
+    color: red;
+}
+.fa-css3-alt{
+    color:rgb(4, 61, 61);
+}
+.fa-js{
+    color: yellow;
+}
